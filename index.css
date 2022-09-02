@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .HeaderContainer{
+    display: flex;
+    border: 2px solid black;
+  }
+
+  .HeaderItem{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    background-color: black;
+  }
+
+  .TH{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .TH2{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .Item1{
+    flex-grow: 2;
+  }
+
+  .Item2{
+    flex-grow: 1;
+  }
+
+  .HP{
+    width: 500px;
+    height: 250px;
+  }
+
+  .BlogContainer1{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  .BlogItem{
+    width: 300px;
+    height: 410px;
+    background-color: white;
+  }
+
+  .BlogContainer2{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  .BlogItem{
+    width: 300px;
+    height: 410px;
+    background-color: white;
+  }
+ 
